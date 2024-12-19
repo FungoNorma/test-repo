@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies and Interests</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #d35400;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background: #333;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-bar input[type="text"] {
+            padding: 0.5rem;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .hero {
+            text-align: center;
+            background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+            color: white;
+            padding: 5rem 2rem;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero button {
+            background-color: #d35400;
+            color: white;
+            padding: 0.8rem 2rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .hero button:hover {
+            background-color: #e68a00;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #543A14;
+        }
+
+        .hobby-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .hobby {
+            text-align: center;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #fff;
+        }
+
+        .hobby img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My World</h1>
+</header>
+
+<nav>
+    <div class="menu">
+        <a href="#hobbies">Hobbies</a>
+        <a href="#interests">Interests</a>
+        <a href="#contact">Contact Me</a>
+    </div>
+    <div class="search-bar">
+        <input type="text" placeholder="Search...">
+        <button>Search</button>
+    </div>
+</nav>
+
+<div class="hero" style="background-image: url(1.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
+    <h2>Explore My Hobbies and Interests</h2>
+    <button>Learn More</button>
+</div>
+
+<div class="container">
+    <section id="hobbies">
+        <h2>My Hobbies</h2>
+        <div class="hobby-grid">
+            <div class="hobby">
+                <img src="2.jpeg" alt="Sports" >
+                <h3>Sports</h3>
+                <p> Engaging in sports allows me to stay active, improve my skills, and enjoy the thrill of competition. It’s a great way to build teamwork and discipline while staying fit.</p>
+            </div>
+            <div class="hobby">
+                <img src="4.jpg" alt="Swimming">
+                <h3>Swimming</h3>
+                <p>Swimming is my favorite way to relax and stay healthy. It helps me improve endurance, clear my mind, and connect with nature when swimming outdoors.</p>
+            </div>
+            <div class="hobby">
+                <img src="3.jpg" alt="Traveling">
+                <h3>Traveling</h3>
+                <p>Visiting new places and learning about different cultures is my passion.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="interests">
+        <h2>My Interests</h2>
+        <ul>
+            <li>Technology and Programming</li>
+            <li>Music and Playing Instruments</li>
+            <li>Environmental Conservation</li>
+            <li>Reading Mystery Novels</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to connect, feel free to reach out via email at <a href="mailto:normajepsani@gmail.com">normajepsani@gmail.com</a>.</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 My Hobbies and Interests. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
